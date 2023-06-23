@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 export const ViewJob = () => {
     return (
         <>
-            <div className="container my-20 bg-slate-100 p-5 xl:w-2/3 md:w-1/2 sm:1/3 mx-auto ">
+            <div className="container my-20 bg-slate-100 p-5 xl:w-2/3 md:w-1/2  mx-auto ">
                 
                 <div className="header m-2 p-2   bg-red-800 text-white font-semibold text-center">
                     <div className=" flex justify-between text-sm ">
