@@ -1,8 +1,8 @@
-export const RAJsection = () => {
+export const ViewAll = () =>{
+
     return (
         <>
             
         </>
     )
-
 }
