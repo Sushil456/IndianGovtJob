@@ -4,33 +4,33 @@ export const ViewJob = () => {
         <>
             <div className="container my-20 bg-slate-100 p-5 xl:w-2/3 md:w-1/2  mx-auto ">
                 
-                <div className="header m-2 p-2   bg-red-800 text-white font-semibold text-center">
-                    <div className=" flex justify-between text-sm ">
-                        <span className="resultbadge px-2 bg-green-400 text-green-900 rounded-full">Result</span>
-                        <span className="resultbadge px-2 bg-orange-400 text-orange-900 rounded-full">Admitcard</span>
-                        <span className="resultbadge px-2 bg-blue-400 text-blue-900 rounded-full">Active</span>
-                        <span className="resultbadge px-2 bg-gray-400 text-gray-900 rounded-full">Expired</span>
+                <div className="header m-2 p-2  bg-red-800 text-white font-semibold text-center">
+                    <div className=" flex  text-sm ">
+                         <span className="resultbadge px-2  mx-1 drop-shadow-md shadow-white-500/50 bg-blue-400 text-blue-900 rounded-full">Active</span>
+                        <span className="resultbadge px-2 mx-1 drop-shadow-md shadow-white-500/50 bg-orange-400 text-orange-900 rounded-full">Admitcard</span>
+                        <span className="resultbadge px-2 mx-1 drop-shadow-md shadow-white-500/50 bg-green-400 text-orange-900 rounded-full">Result</span>
+                        {/* <span className="resultbadge px-2 bg-gray-400 text-gray-900 rounded-full">Expired</span>  */}
                        
                     </div>
-                    <p>------------------------------------------------------------------------------------</p>
-                    <div className="postname font-extrabold mb-2 text-3xl text-center"> Bihar Police CSBC Constable Recruitment</div>
+                    
+                    <div className="postname font-extrabold m-1  border-2 text-3xl text-center"> Bihar Police CSBC Constable Recruitment</div>
                     <div className="jobboard underline underline-offset-4">CSBC Bihar Police Constable Recruitment</div>
                     <div className="postdate ">09 June 2023 | 01:55PM</div>
                     <div className="advtno ">Advt No. 01/2023</div>
                 </div>
                 <div className="jobbody ">
                     <div className="feeanddate flex ">
-                        <div className="examdates mx-2 mr-1 p-2 divide-y-2 divide-red-900 w-1/2 text-center border-double border-4 border-red-800">
+                        <div className="examdates mx-2 mr-0 p-2 divide-y-2 divide-red-900 w-1/2 text-center border-double border-4 border-red-800">
                             <div className="title  font-semibold text-lg">Important Dates</div>
                             <div className="datedetails text-sm py-1">
                                 <p className="fe mt-1">Online Apply Start on : <span> 20 june 2023</span></p>
                                 <p>Online Apply Start on : <span> 20 june 2023</span></p>
                                 <p>Online Apply Start on : <span> 20 june 2023</span></p>
-                                <p className="lastDate bg-yellow-400 border-2 font-bold">Last date to Apply : <span> 20 june 2023</span></p>
-                                <p className="examDate bg-red-300 border-2 font-bold">Exam Date : <span> 20 june 2023</span></p>
+                                <p className="lastDate bg-yellow-400  font-semibold m-1">Last date to Apply : <span> 20 june 2023</span></p>
+                                <p className="examDate bg-blue-300  font-semibold m-1">Exam Date : <span> 20 june 2023</span></p>
                             </div>
                         </div>
-                        <div className="fees mx-2 ml-1 p-2 divide-y-2 divide-red-900 w-1/2 border-double border-4 border-red-800 text-center">
+                        <div className="fees mx-2 ml-0 p-2 divide-y-2 divide-red-900 w-1/2 border-double border-4 border-red-800 text-center">
                             <div className="title  font-semibold text-lg">Application Fees</div>
                             <div className="feedetails text-sm py-1">
                                 <p className="fe mt-1">Gen/EWS/BC/EBC/ candidates : <span>Rs. 675</span></p>
@@ -44,9 +44,10 @@ export const ViewJob = () => {
                         <div className=" text-xl font-bold ">Total : 2345</div>
                     </div>
                     <div className="ageandqualification flex">
-                        <div className="age mx-2 mr-1 p-2 divide-y-2 divide-red-900 w-1/2 text-center border-double border-4 border-red-800">
-                            <div className="title  font-semibold text-lg ">Age Limit as on 01-08-2022</div>
-                            <div className="minmax text-sm justify-between">
+                        <div className="age mx-2 mr-0 px-1 divide-y-2 divide-red-900 w-1/2 text-center border-double border-4 border-red-800">
+                            <div className="title  font-semibold text-lg ">Age Limit</div>
+                            <div className="minmax text-sm text-left mb-1">
+                                <p className="bg-yellow-400  px-2 font-semibold"> as on 01-08-2022 </p>
                                 <p className="fe py-1">Minimum Age : 18yrs </p>
                                 <p>Minimum Age : Gen -25 OBC-27 SC/ST-30 </p>
                                 <p>Minimum Age : OBC / EBC Female -28yrs </p>
@@ -54,17 +55,17 @@ export const ViewJob = () => {
 
                             </div>
                         </div>
-                        <div className="qualification mx-2 ml-1 p-2 divide-y-2 divide-red-900 w-1/2 text-center border-double border-4 border-red-800">
+                        <div className="qualification mx-2 ml-0 px-1 divide-y-2 divide-red-900 w-1/2 text-center border-double border-4 border-red-800">
                             <div className="title font-semibold text-lg ">Educational Qualifications</div>
-                            <div className="degreedetails text-sm">
-                                <p className="bg-yellow-400 py-1 font-bold "> as on 01/08/2022 </p>
+                            <div className="degreedetails text-sm text-left mb-1">
+                                <p className="bg-yellow-400 px-2 font-semibold "> as on 01/08/2022 </p>
                                 <p>Candidate pased 12= </p>
                                 <p>For more details read notification <span >link here</span></p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="selectionprocess m-2 p-2 divide-y-2 bg-red-800 text-white font-semibold text-center">
+                    <div className="selectionprocess py-1 m-2 p-2 divide-y-2 bg-red-800 text-white  text-center">
                         <div className="title font-bold text-2xl ">Selection Process</div>
                         <div className=" text-sm font-medium py-1 flex justify-between">
                             <span>Writtern </span>
@@ -77,7 +78,7 @@ export const ViewJob = () => {
                     </div>
 
                     <div className="postwisedetails mx-2  p-1 divide-y-2 divide-red-900  text-center border-double border-4 border-red-800">
-                        <div className="title  font-bold text-lg ">Category-wise Details</div>
+                        <div className="title font-bold text-2xl ">Category-wise Details</div>
                         <div className=" py-1">
                             <div className="tablesheet grid grid-cols-4">
                                 <p className="serialno col-span-1">Serial Number</p>
@@ -87,8 +88,8 @@ export const ViewJob = () => {
                         </div>
                     </div>
 
-                    <div className="documents m-2 p-2 divide-y-2  bg-red-800 text-white font-semibold text-center">
-                        <div className="title font-bold mb-1 text-lg">Document Required To Upload</div>
+                    <div className="documents m-2 py-1 p-2 divide-y-2  bg-red-800 text-white  text-center">
+                        <div className="title font-bold text-2xl">Document Required To Upload</div>
                         <div className="text-left text-sm py-1">
                             <p>Valid Mobile Number</p>
                             <p>Valid Email Id</p>
@@ -99,7 +100,7 @@ export const ViewJob = () => {
                     </div>
                     <div className="salary mx-2  p-1 divide-y-2 divide-red-900  text-center border-double border-4 border-red-800">
                         <div className="title font-bold text-lg">Salary</div>
-                        <div className="text-sm  font-semibold py-1"> Pay Scale - Rs. 21,700 - 69,100 -<span>Level 3</span> </div>
+                        <div className="text-sm  font-semibold py-1"> Pay Scale - Rs. 21,700 - 69,100 -<span className="bg-green-400 rounded px-2">Level 3</span></div>
                     </div>
 
 
